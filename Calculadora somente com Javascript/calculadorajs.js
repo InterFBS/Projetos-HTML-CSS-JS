@@ -2,7 +2,7 @@
 
 function calculadora() {
 
-	//a  definindo   as operações e pegando valor de entrada do usuário
+	// definindo as operações e pegando valor de entrada do usuário
 	// usar " \n " para fazer quebra uma quebra de linha
 	const operacao = Number(prompt('Escolha uma opção: \n 1 - soma (+)\n 2 - subtração (-)\n 3 - multiplicação (*)\n 4 - divisão real (/)\n 5 - divisão inteira (%)\n 6 - potenciação (**)'));
 	
