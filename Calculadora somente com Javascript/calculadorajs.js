@@ -60,7 +60,6 @@ function calculadora() {
 				alert(`${n1}+ ${n2} =${resultado}`);
 			}
 
-			// nova operação
 					
 		}
 	}
