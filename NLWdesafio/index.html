@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NLW</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <title>Felipe Barroso -- DoWhile 2021</title>
+    <body>
+        <main>
+            <div class="container">
+                <div class="avatar">
+                    <span>
+                        <img src="/images/build.svg" alt="selo-rockseat" targ> 
+                    </span>
+                        <img src="/images/pp.svg" alt="perfil" >
+                </div>              
+                    <h1 id="userName">Felipe Barroso</h1>
+                    <a href="https://www.instagram.com/felipebarroso299/">
+                        <img src="/images/github 2.svg" alt="ícone github" >@felipebarroso299 </a>
+
+                        <p>
+                            I'm a Junior Programmer, i love React, JS, HTML and CSS. I'm majoring in Analitcs and Developer System Student at Estácio 🎓
+                        </p>
+
+                        <ul>
+                            <li class="linkedIn">
+                                <a href="nkedin.com/in/felipe-barroso-b4052021b" target="_blank">
+                                    <img src="/images/LinkedIn - Negative.svg" alt="icone linkedIn">
+                                </a>
+                            </li>
+                            <li class="instagram">
+                                <a href="https://instagram.com.br/felipebarroso" target="_blank">
+                                    <img src="/images/Instagram - Negative.svg" alt="icone facebook">
+                                </a>
+                            </li>
+                            <li class="discord">
+                                <a href="" target="_blank">
+                                    <img src="/images/Discord - Negative.svg" alt="icone discord">
+                                </a>
+                            </li>
+                            <li class="github">
+                                <a href="https://github.com/InterFBS"
+                                target="_blank">
+                                    <img src="/images/Github - Negative.svg" alt="icone github">
+                                </a>
+                            </li>
+                        </ul>
+                </div>
+            </div>
+        </main>
+        <script>     
+            const linksSocialMedia = { 
+             github : "InterFBS",
+             linkedIn : "felipe-barroso-b4052021b",
+             discord : "",
+             instagram : "felipebarroso299",
+            }
+            
+            function changeSocialMediaLinks(){
+                for(let li of linksSocialMedia.children){
+                    const social = li.getAttribute('class')
+
+                    li.children[0].href = `https://wwww.${social}.com.br/${linksSocialMedia}`
+
+                    alert(li.children[0].href)
+                }
+            
+            }
+            changeSocialMediaLinks()                
+
+        </script>
+    </body>
+</html>
