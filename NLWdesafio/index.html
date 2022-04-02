@@ -51,26 +51,5 @@
                 </div>
             </div>
         </main>
-        <script>     
-            const linksSocialMedia = { 
-             github : "InterFBS",
-             linkedIn : "felipe-barroso-b4052021b",
-             discord : "",
-             instagram : "felipebarroso299",
-            }
-            
-            function changeSocialMediaLinks(){
-                for(let li of linksSocialMedia.children){
-                    const social = li.getAttribute('class')
-
-                    li.children[0].href = `https://wwww.${social}.com.br/${linksSocialMedia}`
-
-                    alert(li.children[0].href)
-                }
-            
-            }
-            changeSocialMediaLinks()                
-
-        </script>
     </body>
 </html>
